@@ -38,7 +38,7 @@ content="Fast, reliable appliance repair for refrigerators, washers, dryers, dis
 </script>
 
 </head>
-</head>
+
 
 <style>
 
@@ -763,10 +763,19 @@ MOBILE header nav css
 
     header{
         flex-direction:column;
+        align-items:center;
     }
 
     .logo{
-        flex-direction:column;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .logo img{
+        display:block;
+        height:70px;
+        width:auto;
     }
 
     nav{
@@ -778,10 +787,6 @@ MOBILE header nav css
     .call-header{
         margin-top:20px;
         margin-left:0;
-    }
-
-    .logo h1{
-        font-size:30px;
     }
 
 }
@@ -866,10 +871,7 @@ MOBILE
 
 <div class="logo">
 
-    <img src="images/logo.png" alt="GalaMixx Logo">
-
-    
-
+   <img src="images/logo.png" alt="GalaMixx Logo" style="border:3px solid red;">
 </div>
 
 <nav>

@@ -762,9 +762,11 @@ MOBILE header nav css
 @media(max-width:900px){
 
     header{
-        flex-direction:column;
-        align-items:center;
-    }
+    flex-direction:column;
+    align-items:center;
+    height:auto;
+    overflow:visible;
+}
 
     .logo{
         display:flex;
@@ -773,10 +775,10 @@ MOBILE header nav css
     }
 
     .logo img{
-        display:block;
-        height:70px;
-        width:auto;
-    }
+    height:70px;
+    width:auto;
+    object-fit:contain;
+}
 
     nav{
         flex-wrap:wrap;

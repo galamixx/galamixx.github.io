@@ -750,30 +750,36 @@ MOBILE header nav css
 /* MOBILE HEADER */
 @media(max-width:900px){
 
+   @media (max-width:900px){
+
     header{
+        display:flex;
         flex-direction:column;
         align-items:center;
         justify-content:center;
+        padding:15px;
         height:auto;
-        min-height:0;
-        overflow:visible;
     }
 
     .logo{
         display:flex;
-        justify-content:center;
         align-items:center;
+        justify-content:center;
+        gap:10px;
         width:100%;
-        height:15px;
     }
 
-    nav{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        align-items:center;
-        width:100%;
-        margin-top:15px;
+    .logo img{
+        display:block;
+        width:55px;
+        height:auto;
+        max-width:none;
+        opacity:1;
+        visibility:visible;
+    }
+
+    .logo h1{
+        font-size:28px;
     }
 
 }

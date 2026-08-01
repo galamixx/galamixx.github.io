@@ -1287,4 +1287,59 @@ img {
 html, body{
     overflow-x:hidden;
 }
+/* Testimonials */
+
+.testimonials{
+
+    padding:70px 10%;
+    background:#f8f8f8;
+    text-align:center;
+
+}
+
+.testimonial-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+    margin-top:40px;
+
+}
+
+.testimonial{
+
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.testimonial p{
+
+    margin:20px 0;
+
+}
+/* Service CTA */
+
+.service-cta{
+
+    padding:80px 10%;
+    text-align:center;
+    background:#1d3557;
+    color:white;
+
+}
+
+.service-cta h2{
+
+    margin-bottom:20px;
+
+}
+
+.service-cta p{
+
+    margin-bottom:30px;
+
+}
 

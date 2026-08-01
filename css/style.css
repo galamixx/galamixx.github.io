@@ -1562,9 +1562,9 @@ footer{
     margin-bottom:30px;
 
 }
-/* ===============================
-   MOBILE FIXES
-================================ */
+/* ======================================
+   MOBILE size 
+====================================== */
 
 @media (max-width:768px){
 
@@ -1573,55 +1573,61 @@ footer{
         overflow-x:hidden;
     }
 
-    *{
-        box-sizing:border-box;
+    header{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+        padding:20px;
     }
 
-    header{
-        padding:15px 20px;
+    .logo{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
     }
 
     .logo img{
         width:70px;
+        height:auto;
     }
 
     .logo h1{
-        font-size:26px;
+        font-size:42px;
     }
 
     nav{
         display:flex;
-        gap:15px;
         flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
     }
 
     nav a{
-        font-size:14px;
+        font-size:16px;
     }
 
     .call-btn{
-        padding:10px 18px;
-        font-size:14px;
-    }
-
-    section{
-        padding:60px 20px;
+        width:220px;
+        text-align:center;
     }
 
     .hero{
-        padding:120px 20px 80px;
+        padding:80px 20px;
     }
 
     .hero h1{
         font-size:42px;
     }
 
-    .hero p{
-        font-size:18px;
+    .hero h2{
+        font-size:24px;
     }
 
     .hero-buttons{
         flex-direction:column;
+        align-items:center;
     }
 
     .hero-call,

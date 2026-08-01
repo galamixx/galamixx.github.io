@@ -684,75 +684,56 @@ nav a{
 ========================= */
 
 .brands {
-    padding: 70px 20px;
+    padding: 60px 20px;
     background: #f8f9fa;
     text-align: center;
 }
 
 .brands h2 {
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 700;
     color: #222;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .section-text {
-    max-width: 700px;
-    margin: 0 auto 40px;
-    font-size: 18px;
-    line-height: 1.6;
+    max-width: 650px;
+    margin: 0 auto 30px;
+    font-size: 17px;
     color: #666;
 }
 
 
-/* Brands Grid */
+/* Small Brand Name Boxes */
 
 .brands-grid {
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
 }
 
-
-/* Brand Cards */
 
 .brand-card {
     background: #ffffff;
-    border: 1px solid #e5e5e5;
-    border-radius: 12px;
-    padding: 25px 15px;
-    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 22px;
+    font-size: 16px;
     font-weight: 600;
     color: #333;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-    transition: all 0.3s ease;
+    transition: 0.3s ease;
 }
 
 
-/* Hover Effect */
+/* Hover */
 
 .brand-card:hover {
-    transform: translateY(-5px);
+    background: #0066cc;
     border-color: #0066cc;
-    color: #0066cc;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
-
-/* Tablet */
-
-@media (max-width: 900px) {
-
-    .brands-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .brands h2 {
-        font-size: 30px;
-    }
-
+    color: #fff;
 }
 
 
@@ -761,25 +742,16 @@ nav a{
 @media (max-width: 600px) {
 
     .brands {
-        padding: 50px 15px;
-    }
-
-    .brands-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-    }
-
-    .brand-card {
-        padding: 20px 10px;
-        font-size: 16px;
+        padding: 45px 15px;
     }
 
     .brands h2 {
         font-size: 26px;
     }
 
-    .section-text {
-        font-size: 16px;
+    .brand-card {
+        font-size: 14px;
+        padding: 9px 16px;
     }
 
 }

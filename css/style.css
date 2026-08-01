@@ -1305,6 +1305,39 @@ html, body{
     margin:20px 0;
 
 }
+/* ======================================
+   FAQ
+====================================== */
+
+.faq{
+    padding:80px 8%;
+    background:#f8f8f8;
+}
+
+.faq h2{
+    color:#1B5E20;
+    text-align:center;
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.faq-item{
+    background:#fff;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.faq-item h3{
+    color:#1B5E20;
+    margin-bottom:12px;
+}
+
+.faq-item p{
+    color:#555;
+    line-height:1.7;
+}
 /* Service CTA */
 
 .service-cta{

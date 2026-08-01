@@ -1473,6 +1473,27 @@ footer{
     box-shadow:0 5px 15px rgba(0,0,0,.08);
 
 }
+/*service cta*/
+.service-cta{
+
+    padding:80px 10%;
+    text-align:center;
+    background:#1d3557;
+    color:white;
+
+}
+
+.service-cta h2{
+
+    margin-bottom:20px;
+
+}
+
+.service-cta p{
+
+    margin-bottom:30px;
+
+}
 
 
    

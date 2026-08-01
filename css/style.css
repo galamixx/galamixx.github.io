@@ -1458,7 +1458,7 @@ footer{
 .brand-grid{
 
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
     gap:15px;
     margin-top:35px;
 
@@ -1560,5 +1560,55 @@ footer{
 .service-cta p{
 
     margin-bottom:30px;
+
+}
+/* ===============================
+   MOBILE FIXES
+================================ */
+
+@media (max-width:768px){
+
+    *{
+        max-width:100%;
+    }
+
+    section{
+        padding:60px 20px;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero h2{
+        font-size:24px;
+        letter-spacing:2px;
+    }
+
+    .hero p{
+        font-size:17px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .hero-call,
+    .hero-service{
+        width:100%;
+        max-width:280px;
+    }
+
+    .brand-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .service-grid,
+    .why-grid,
+    .areas-grid,
+    .related-grid{
+        grid-template-columns:1fr;
+    }
 
 }

@@ -1566,9 +1566,6 @@ footer{
    MOBILE size 
 ====================================== */
 
-/* ======================================
-   MOBILE
-====================================== */
 
 @media (max-width:768px){
 
@@ -1648,12 +1645,16 @@ footer{
         max-width:300px;
     }
 
-    .service-grid,
-    .why-grid,
-    .areas-grid,
-    .brand-grid,
-    .related-grid{
-        grid-template-columns:1fr;
-    }
+ .service-grid,
+.why-grid,
+.areas-grid,
+.related-grid{
+    grid-template-columns:1fr;
+}
+
+.brand-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
 
 }

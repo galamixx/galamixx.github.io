@@ -716,17 +716,91 @@ nav a{
     font-weight:600;
     box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
+.brand-card{
 
+    background:#f7f7f7;
 
+    padding:25px;
 
+    border-radius:12px;
 
+    font-size:22px;
 
+    font-weight:700;
 
+    color:#555;
 
+    transition:.3s;
 
+    border:1px solid #e8e8e8;
 
+}
 
+.brand-card:hover{
 
+    background:#F57C00;
+
+    color:white;
+
+    transform:translateY(-5px);
+
+}
+
+/* ======================================
+   FAQ
+====================================== */
+
+.faq{
+    padding:80px 8%;
+    background:#f8f8f8;
+}
+
+.faq h2{
+    color:#1B5E20;
+    text-align:center;
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.faq-item{
+    background:#fff;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.faq-item h3{
+    color:#1B5E20;
+    margin-bottom:12px;
+}
+
+.faq-item p{
+    color:#555;
+    line-height:1.7;
+}
+/* Service CTA */
+
+.service-cta{
+
+    padding:80px 10%;
+    text-align:center;
+    background:#1d3557;
+    color:white;
+
+}
+
+.service-cta h2{
+
+    margin-bottom:20px;
+
+}
+
+.service-cta p{
+
+    margin-bottom:30px;
+
+}
 
 
 /* ==================================
@@ -1022,6 +1096,70 @@ border-top:1px solid #e5e5e5;
     margin-top:10px;
 
 }
+/* ===============================
+   WHY CHOOSE
+================================ */
+
+.why-choose{
+
+    padding:90px 8%;
+
+    background:#ffffff;
+
+    text-align:center;
+
+}
+
+.why-choose h2{
+
+    color:#1B5E20;
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+    margin-top:40px;
+
+}
+
+.why-card{
+
+    background:#f8f8f8;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.why-card h3{
+
+    color:#F57C00;
+
+    margin-bottom:15px;
+
+}
+
+.why-card p{
+
+    color:#555;
+
+    line-height:1.6;
+
+}
+
 /* ======================================
    FOOTER
 ====================================== */
@@ -1221,6 +1359,7 @@ footer{
     }
 
 }
+
 * {
     box-sizing: border-box;
 }
@@ -1272,7 +1411,103 @@ img {
 html, body{
     overflow-x:hidden;
 }
-/* Testimonials */
+
+/* ===============================
+   SERVICE LINKS
+================================ */
+
+.service-link{
+
+    text-decoration:none;
+
+    color:inherit;
+
+    display:block;
+
+}
+
+.service-link:hover{
+
+    text-decoration:none;
+
+}
+
+.service-link .service-card{
+
+    transition:.3s;
+
+}
+
+.service-link:hover .service-card{
+
+    transform:translateY(-8px);
+
+}
+/* ===============================
+   RELATED SERVICES
+================================ */
+
+.related-services{
+
+    padding:90px 8%;
+
+    background:#ffffff;
+
+    text-align:center;
+
+}
+
+.related-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+    margin-top:40px;
+
+}
+
+.related-card{
+
+    background:#f8f8f8;
+
+    padding:35px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    color:#1B5E20;
+
+    font-weight:bold;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.related-card:hover{
+
+    transform:translateY(-6px);
+
+    background:#1B5E20;
+
+    color:white;
+
+}
+
+.related-card h3{
+
+    margin-top:15px;
+
+}
+
+/* ===============================
+TESTIMONIAL
+================================ */
 
 .testimonials{
 
@@ -1305,41 +1540,6 @@ html, body{
     margin:20px 0;
 
 }
-/* ======================================
-   FAQ
-====================================== */
-
-.faq{
-    padding:80px 8%;
-    background:#f8f8f8;
-}
-
-.faq h2{
-    color:#1B5E20;
-    text-align:center;
-    font-size:42px;
-    margin-bottom:40px;
-}
-
-.faq-item{
-    background:#fff;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
-}
-
-.faq-item h3{
-    color:#1B5E20;
-    margin-bottom:12px;
-}
-
-.faq-item p{
-    color:#555;
-    line-height:1.7;
-}
-/* Service CTA */
-
 .service-cta{
 
     padding:80px 10%;
@@ -1360,4 +1560,3 @@ html, body{
     margin-bottom:30px;
 
 }
-
